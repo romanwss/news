@@ -1,0 +1,56 @@
+.Basket {
+    width: 100%;
+    min-height: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.BasketContent {
+    width: 100%;
+    min-height: 500px;
+}
+
+.ProductBasket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ProductBasket img {
+    width: 200px;
+    height: 200px;
+}
+
+.Basket li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.Basket img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Basket h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Basket button {
+    width: 250px;
+    height: 40px;
+    padding: 0 10px;
+    background-color: #0d0364;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Basket button:hover {
+    background-color: #1b27ce;
+}
